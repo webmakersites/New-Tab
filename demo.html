@@ -68,8 +68,19 @@
 }</style>
 </head>
 <body>
-<div id="apTabs" class="apTabs" style="width:500px; height:200px">
-	<h2>Tab 1</h2>
+<div id="apTabs" class="apTabs" style="width:100%; height:200px">
+	<h2>Cool Browser</h2>
+	<div>Click the + to create a new tab.</div>
+	
+</div>
+<p><a href="javascript:void(0)" onclick="apTabs.add('apTabs', {title: 'Ajax', ajax: 'ajax.php'})">Create a new tab "Ajax" with Ajax content</a></p>
+<p><a href="javascript:void(0)" onclick="apTabs.add('apTabs', {title: 'iFrame', iframe: 'iframe.html'})">Create a new tab "iFrame" with iFrame content</a></p>
+
+</body>
+</html>
+
+<!--
+<h2>Tab 1</h2>
 	<div>Tab content 1. Select 2nd tab by <a href="#" onclick="apTabs.show('apTabs', 2);return false">clicking here.</a><br /><br /> This script featured on <a href="http://www.javascriptkit.com">JavaScript Kit</a>.</div>
 	<h2>Tab 2</h2>
 	<div>Tab content 2. Select 3rd tab by <a href="#" onclick="apTabs.show('apTabs', 3);return false">clicking here.</a></div>
@@ -79,10 +90,4 @@
 	<div>Tab content 4. Select 5th tab by <a href="#" onclick="apTabs.show('apTabs', 5);return false">clicking here.</a></div>
 	<h2>Tab 5</h2>
 	<div>apTabs has been successfully tested in IE6-7, Opera9, Chrome 0.3, Safari 3.1 Win, and Firefox 2-3.</div>
-</div>
-<p><a href="javascript:void(0)" onclick="apTabs.add('apTabs', {title: 'Ajax', ajax: 'ajax.php'})">Create a new tab "Ajax" with Ajax content</a></p>
-<p><a href="javascript:void(0)" onclick="apTabs.add('apTabs', {title: 'iFrame', iframe: 'iframe.html'})">Create a new tab "iFrame" with iFrame content</a></p>
-
-<p>This script available at <a href="http://www.javascriptkit.com">JavaScript Kit</a></p>
-</body>
-</html>
+	-->
