@@ -57,3 +57,5 @@
 .apTabs .tabContent {
 	overflow:auto;
 }
+body {
+	width: 100%;
